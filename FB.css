@@ -1,0 +1,237 @@
+body {
+    overflow: auto;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 78px;
+    background-color: rgb(255, 255, 255);
+}
+
+#header .mainlogo {
+    position: relative;
+    left: 25px;
+    width: 128px;
+    height: 36px;
+    cursor: pointer;
+}
+
+#header #bag {
+    display: flex;
+    justify-self: flex-end;
+    position: relative;
+    left: 1270px;
+    color: black;
+    cursor: pointer;
+}
+
+#header button {
+    width: 72.76px;
+    height: 36px;
+    position: relative;
+    left: 1255px;
+    border-radius: 20px;
+    border: 1px solid rgb(186, 175, 175);
+    background-color: #FFFFFF;
+    color: rgb(130, 17, 236);
+    font-family: system-ui;
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+#header button:hover {
+    border: 1px solid black;
+}
+
+#main {
+    height: 540px;
+    width: 100%;
+    background: url(./assets/fpegzbcmknpilgkd0twa.jpg);
+    background-size: cover;
+}
+
+#main::-webkit-scrollbar {
+    display: none;
+}
+
+#main img {
+    position: relative;
+    left: 170px;
+    top: 42px;
+    height: 64px;
+    width: 64px;
+    border: 8px solid rgb(255, 254, 255);
+    box-shadow: 0 0 1px black;
+    z-index: 1;
+}
+
+.main {
+    position: relative;
+    left: 100px;
+    width: 570px;
+    height: 317px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 36px 0 36px;
+    padding: 2px 32px ;
+}
+
+.main h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 37px;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 1px;
+    padding: 40px 0  0;
+    margin: 0 0 32px;
+}
+
+.main span {
+    font-size: 18.5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    line-height: 25px;
+}
+
+.main input {
+    position: absolute;
+    width: 327px;
+    height: 44px;
+    margin: 12px 0 0 0;
+    border-radius: 20px;
+    border: 1px solid rgba(92, 78, 78, 0.511);
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.main input {
+    outline: none;
+}
+
+.main input:focus {
+    border:  2px solid blue;
+    
+}
+
+.main button {
+    position: relative;
+    left: 370px;
+    top: 12px;
+    height: 48px;
+    width: 155px;
+    border-radius: 25px;
+    background-color: #572af8;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    transition: 0.2s;
+    /* margin-top: 10px; */
+}
+
+.main button:hover {
+    background-color: #3814bc;
+}
+
+#footer {
+    font-family: "Montserrat", sans-serif;
+}
+
+#footer .atag {
+    position: relative;
+    left: 200px;
+    top: 20px;
+    color: #572af8;
+    color: #6b6b83;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #572af8;
+}
+
+.a::after {
+    content: " / ";
+}
+
+#footer h1 {
+    display: inline;
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+
+#footer .unkhown {
+    position: relative;
+    display: inline;
+    top: 50px;
+    left: 350px;
+}
+
+
+
+#footer .ZKN {
+    position: relative;
+    left: 185px; 
+    top: 35px;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#footer p .a_of_footer::after {
+    content: none;
+}
+
+.IPbox {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.middle {
+    width: 80%;
+    display: flex;
+    position: relative;
+    left: 185px;
+    top: 35px;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 24px;
+}
+
+.tittle {
+    margin-right: 70px;
+    font-size: 18.4px;
+}
+
+.m-para {
+    font-size: 15px;
+}
+
+.end {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 90%;
+    height: 20%;
+    border-top: 1px solid rgba(189, 137, 137, 0.777);
+    opacity: 0.4;
+}
